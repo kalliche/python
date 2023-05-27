@@ -21,4 +21,24 @@ print('Mi nombre es {} {} y mi edad es {}'.format(name,surname,age))
 print('Mi nombre es %s %s y mi edad es %d' %(name,surname,age))
 print(f'Mi nombre es {name} {surname} y mi edad es {age}')
 
-# desempaquetado de caracteres
+# division
+languaje = 'Python'
+languaje_slice = languaje[1:3]
+print(languaje_slice)
+languaje_slice = languaje[1: ]
+print(languaje_slice)
+languaje_slice = languaje[-2]
+print(languaje_slice)
+
+# reverse
+reverse_languaje = languaje[::-1]
+print(reverse_languaje)
+
+# metodos
+print(languaje.capitalize())
+print(languaje.upper())
+print(languaje.count('h'))
+print(languaje.isnumeric())
+print('1'.isnumeric)
+print(languaje.lower())
+print(languaje.lower().isupper())
