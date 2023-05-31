@@ -44,6 +44,28 @@ my_new_set = my_set.union(my_other_set)
 print(my_new_set)
 print(my_new_set.union('c++', 'R')) # se agrega elementos pero no se almacena en la variable
 
+# Crear un conjunto
+frutas = {'manzana', 'banana', 'naranja'}
+
+# Agregar elementos al conjunto
+frutas.add('uva')
+frutas.add('manzana')  # No se agregará otra vez, ya que ya está presente
+
+# Eliminar elementos del conjunto
+frutas.remove('banana')
+
+# Verificar si un elemento está presente
+if 'naranja' in frutas:
+    print("La naranja está en el conjunto")
+
+# Operaciones de conjuntos
+otros_frutas = {'pera', 'kiwi'}
+todos_frutas = frutas.union(otros_frutas)
+frutas_comunes = frutas.intersection(otros_frutas)
+
+# Imprimir el conjunto resultante
+print(todos_frutas)
+print(frutas_comunes)
 
 
 
