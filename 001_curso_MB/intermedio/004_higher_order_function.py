@@ -24,7 +24,7 @@ print(add_closure(5))
 
 ### built-in higher order function ###
 
-numbers = [2,5,10,21]
+numbers = [2,5,10,21,15]
 print(f'\n{numbers}')
 # map
 def multiply_two(number):
@@ -33,3 +33,16 @@ print(list(map(multiply_two, numbers)))
 print(list(map(lambda number: number * 2, numbers)))
 
 # filter
+def filter_greater_than_ten(number):
+    if number > 10:
+        return True
+    return False
+print(list(filter(filter_greater_than_ten, numbers)))
+print(list(filter(lambda number: number > 10, numbers)))
+
+# reduce
+ # opera un valor con el acomulado
+from functools import reduce
+def sum_two_values(first_value, second_value):
+    return first_value + second_value
+print(reduce(sum_two_values, numbers))
