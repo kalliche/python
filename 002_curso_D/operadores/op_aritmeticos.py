@@ -20,4 +20,4 @@ print(f'la division baja es >> {division_baja}')
 
 # modulo
 modulo = 15 % 5
-print(f'el modulo es >> {modulo}')
+print(f'el modulo es >> {modulo}') 
