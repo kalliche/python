@@ -3,9 +3,8 @@ import os
 # file handling (nanejo de ficheros)
 # .txt file
 
-txt_file = open(
-    "001_curso_MB/intermedio/006_my_file.txt", "w+")  # leer y escribir o crear
-txt_file.write("Mi nombre es Carlos\nMi apellido es Garcia\ntengo 36 año\nMi lenguaje preferido es Python")
+txt_file = open("001_curso_MB/intermedio/006_my_file.txt", "w+")  # leer y escribir o crear
+txt_file.write("Mi nombre es Carlos\nMi apellido es Garcia\ntengo 36 año\nMi lenguaje preferido es Python") # creo el fichero
 
 txt_file = open("001_curso_MB/intermedio/006_my_file.txt", "r+")  # leer y escribir
 # print(txt_file.read())  # leer el fichero
