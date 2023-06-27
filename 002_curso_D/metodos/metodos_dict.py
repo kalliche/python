@@ -11,7 +11,7 @@ diccionario = {
     'apellidos': 'Dalto',
     'subd': 1000
 }
-# key()
+# key() devuelve las caveceras
 claves = diccionario.keys()
 print(claves)
 
@@ -19,3 +19,10 @@ print(claves)
 valor_de_error = diccionario.get('valor_que_no_existe')
 # cuando la refencia del valor no existe el programa continua es la difereceia del metodo anterior
 print(valor_de_error)
+
+# eliminando un elemento de diccinario
+diccionario.pop('apellidos')
+print(diccionario)
+
+diccionario_iterable = diccionario.items()
+print(diccionario_iterable)
