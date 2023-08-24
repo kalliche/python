@@ -1,0 +1,16 @@
+los datos son:
+Nombre: lucas
+Apellido: Dalto
+--------------
+Nombre: Matias
+Apellido: Zing
+--------------
+Nombre: Simon
+Apellido: Gimenes
+--------------
+Nombre: Pedro
+Apellido: Burbano
+--------------
+Nombre: Roberto
+Apellido: Delgado
+--------------
